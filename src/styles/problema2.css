@@ -1,0 +1,47 @@
+.contenedor{
+
+    width: 550px;
+    height: 250px;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.cliente{
+    border: none;
+    border-bottom: 1px solid black;
+    
+}
+
+.formato{
+    width: 550px;
+    height: 40%;
+    padding-top: 15px;
+}
+.yellow{
+    background-color:rgb(247, 224, 151);
+}
+.lightblue{
+    background-color: rgb(208, 208, 247);
+}
+.green{
+    background-color:rgb(174, 212, 174);
+}
+.linea{
+    border-bottom: 1px solid black;
+}
+.centro{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.button{
+    margin-top: 10px;
+}
+.button a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 3%;
+    border: 1px solid blueviolet;
+    background-color: blueviolet;
+}

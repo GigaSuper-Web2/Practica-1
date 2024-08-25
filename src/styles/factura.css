@@ -1,0 +1,12 @@
+.izq{
+    text-align: left;
+}
+.der{
+    text-align: right;
+}
+.abaj{
+    border-bottom: 1px solid black;
+}
+.column{
+    margin-left: -10%;
+}
