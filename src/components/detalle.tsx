@@ -1,4 +1,3 @@
-import React from 'react';
 import { useLocation } from "react-router-dom";
 import Iron from '../images/concepto/minis/Iron.jpg';
 import Harry from '../images/concepto/minis/Harry.jpeg';
@@ -7,8 +6,7 @@ import Intensamente from '../images/concepto/minis/Intensa.jpg'
 
 const Detalle = () => {
     const location = useLocation();
-    const c_opc = location.state ? location.state.opc : 1; // default to 1 if no data is passed
-    alert({c_opc});
+    const c_opc = location.state ? location.state.opc : 1;
 
     const matrizInfo = [
         [Iron, 'Iron Man', '2008', 'Robert Downey Jr. (Tony Stark/Iron Man), Gwyneth Paltrow (Pepper Potts), Jeff Bridges (Obadiah Stane), Terrence Howard (James "Rhodey" Rhodes)', 'Tony Stark, un multimillonario ingeniero y empresario, es secuestrado y obligado a construir un arma devastadora. En su lugar, construye una armadura avanzada para escapar y decide usar su tecnología para combatir el mal bajo el nombre de Iron Man.' ],
@@ -18,7 +16,7 @@ const Detalle = () => {
        
     ];
 
-    const selectedInfo = matrizInfo[c_opc - 1]; // Adjust index because c_opc is 1-based
+    const selectedInfo = matrizInfo[c_opc - 1]; 
 
     return (
         <div>

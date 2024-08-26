@@ -67,7 +67,7 @@ const Factura = () => {
     useEffect(() => {
         setTimeout(() => {
             navigate('/combos');
-        }, 3000);
+        }, 10000);
     }, [navigate]);
 
 
