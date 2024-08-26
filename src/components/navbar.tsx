@@ -9,7 +9,7 @@ const navbar = () => {
                 <span className="navbar-brand">  <Link to="lista" >Problema 1</Link>   </span>
                 <span className="navbar-brand">  <Link to="/combos" >Problema 2</Link>   </span>
                 <span className="navbar-brand">  <Link to="quiz" >Problema 3</Link>   </span>
-                <span className="navbar-brand">  <Link to="#" >Problema 4</Link>   </span>
+                <span className="navbar-brand">  <Link to="/juegoApuestas" >Problema 4</Link>   </span>
             </ul>
         </nav>
     )

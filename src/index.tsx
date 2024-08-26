@@ -12,6 +12,8 @@ import Factura from './components/factura';
 import Lista from './components/lista';
 import Detalle from './components/detalle';
 import Quiz from './components/quiz';
+import Juego from './components/juegoApuestas';
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -26,6 +28,8 @@ root.render(
       <Route path='/lista' element={<Lista />} /> 
       <Route path='/detalle' element={<Detalle />} /> 
       <Route path='/quiz' element={<Quiz />} /> 
+      <Route path='/juegoApuestas' element={<Juego />} /> 
+
     </Routes>
   </BrowserRouter>
 );
